@@ -17,9 +17,9 @@
     "c_kl": 1.0
   },
   "data": {
-    "training_files":"filelists/cjke_train_filelist.txt.cleaned",
-    "validation_files":"filelists/cjke_val_filelist.txt.cleaned",
-    "text_cleaners":["cjke_cleaners2"],
+    "training_files":"filelists/zaonhe_train_filelist.txt.cleaned",
+    "validation_files":"filelists/zaonhe_val_filelist.txt.cleaned",
+    "text_cleaners":["shanghainese_cleaners"],
     "max_wav_value": 32768.0,
     "sampling_rate": 22050,
     "filter_length": 1024,
@@ -29,7 +29,7 @@
     "mel_fmin": 0.0,
     "mel_fmax": null,
     "add_blank": true,
-    "n_speakers": 2891,
+    "n_speakers": 2,
     "cleaned_text": true
   },
   "model": {
@@ -50,5 +50,6 @@
     "use_spectral_norm": false,
     "gin_channels": 256
   },
-  "symbols": ["_", ",", ".", "!", "?", "-", "~", "\u2026", "N", "Q", "a", "b", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "s", "t", "u", "v", "w", "x", "y", "z", "\u0251", "\u00e6", "\u0283", "\u0291", "\u00e7", "\u026f", "\u026a", "\u0254", "\u025b", "\u0279", "\u00f0", "\u0259", "\u026b", "\u0265", "\u0278", "\u028a", "\u027e", "\u0292", "\u03b8", "\u03b2", "\u014b", "\u0266", "\u207c", "\u02b0", "`", "^", "#", "*", "=", "\u02c8", "\u02cc", "\u2192", "\u2193", "\u2191", " "]
+  "speakers": ["1", "2"],
+  "symbols": ["_", ",", ".", "!", "?", "\u2026", "a", "b", "d", "f", "g", "h", "i", "k", "l", "m", "n", "o", "p", "s", "t", "u", "v", "y", "z", "\u00f8", "\u014b", "\u0235", "\u0251", "\u0254", "\u0255", "\u0259", "\u0264", "\u0266", "\u026a", "\u027f", "\u0291", "\u0294", "\u02b0", "\u0303", "\u0329", "\u1d00", "\u1d07", "1", "5", "6", "7", "8", " "]
 }
